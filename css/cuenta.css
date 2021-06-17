@@ -1,0 +1,48 @@
+.cuenta{
+	height: 100%;
+	width: 100%;
+}
+
+.filaCuenta{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/*Responsive de la fila de la cuenta*/
+@media screen and (max-width: 800px) {
+	.filaCuenta{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+.columnaCuenta{
+	background-color: #EFEFEF;
+}
+
+.paddinginput{
+	padding-top: 3%
+
+}
+.cambiarcontra{
+	padding-top: 3%;
+}
+
+.btn-danger{
+	letter-spacing: 1px;
+}
+
+.btn-primary{
+	letter-spacing: 1px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #f1f1f1;
+    border-color: #102952;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #102952;
+}
