@@ -1,0 +1,316 @@
+/***********Formulario de Registro***********/
+
+.registro{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 250px;
+	margin-top: 100px;
+}
+
+.filaRegistro{
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #1C1C1C;
+}
+
+/*Responsive de la fila del contenido Login*/
+@media screen and (max-width: 800px) {
+	.filaRegistro{
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.registro{
+		margin-bottom: 80px;
+	}
+}
+
+
+.contenidoRegistro{
+	width: 100%;
+	height: 100%;
+	background-color: #EFEFEF;
+}
+
+/*******Título del formulario*******/
+.contenidoRegistro h3{
+	padding-top: 60px;
+	text-align: center;
+}
+
+/*Responsive del contenido Login*/
+@media screen and (max-width: 800px) {
+	.contenidoRegistro h3{
+		padding-top: 40px;
+		text-align: center;
+	}
+}
+
+
+/*******Campos del formulario registro********/
+.formularioRegistro{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 800px) {
+	.formularioRegistro{
+		width: 80%;
+		margin-top: 20px;
+	}
+}
+
+
+
+
+/*Campo Nombre*/
+.nombre{
+	margin-right: 20px;
+	margin-bottom: 3px;
+	font-family: 'Verdana';
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.txtNombre{
+	width: 100%;
+	font-family: 'Verdana';
+	font-size: 16px;
+}
+
+
+/*Responsive del Nombre*/
+@media screen and (max-width: 800px) {
+	.nombre{
+		margin-bottom: 5px;
+		font-family: 'Verdana';
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.txtNombre{
+		width: 100%;
+		font-family: 'Verdana';
+		font-size: 12px;
+	}
+}
+
+/*Campo Apellido*/
+.apellido{
+	margin-right: 20px;
+	margin-bottom: 3px;
+	font-family: 'Verdana';
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.txtApellido{
+	width: 100%;
+	font-family: 'Verdana';
+	font-size: 16px;
+}
+
+
+/*Responsive del correo*/
+@media screen and (max-width: 800px) {
+	.apellido{
+		margin-bottom: 5px;
+		font-family: 'Verdana';
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.txtApellido{
+		width: 100%;
+		font-family: 'Verdana';
+		font-size: 12px;
+	}
+}
+
+/*Campo correo electrónico*/
+.correo{
+	margin-right: 20px;
+	margin-bottom: 3px;
+	font-family: 'Verdana';
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.txtCorreo{
+	width: 100%;
+	font-family: 'Verdana';
+	font-size: 16px;
+}
+
+
+/*Responsive del correo*/
+@media screen and (max-width: 800px) {
+	.correo{
+		margin-bottom: 5px;
+		font-family: 'Verdana';
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.txtCorreo{
+		width: 100%;
+		font-family: 'Verdana';
+		font-size: 12px;
+	}
+}
+
+
+/*Campo contraseña*/
+.contraseña{
+	margin-right: 20px;
+	margin-bottom: 3px;
+	font-family: 'Verdana';
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.txtContraseña{
+	width: 100%;
+	font-family: 'Verdana';
+	font-size: 16px;
+}
+
+
+/*Responsive contraseña*/
+@media screen and (max-width: 800px) {
+	.contraseña{
+		margin-bottom: 5px;
+		font-family: 'Verdana';
+		font-size: 12px;
+		font-weight: bold;
+		margin-top: 6px;
+	}
+	.txtContraseña{
+		width: 100%;
+		font-family: 'Verdana';
+		font-size: 12px;
+	}
+}
+
+
+/*Campo direccion*/
+.direccion{
+	margin-right: 20px;
+	margin-bottom: 3px;
+	font-family: 'Verdana';
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.txtDireccion{
+	width: 100%;
+	font-family: 'Verdana';
+	font-size: 16px;
+}
+
+
+/*Responsive direccion*/
+@media screen and (max-width: 800px) {
+	.direccion{
+		margin-bottom: 5px;
+		font-family: 'Verdana';
+		font-size: 12px;
+		font-weight: bold;
+		margin-top: 6px;
+	}
+	.txtDireccion{
+		width: 100%;
+		font-family: 'Verdana';
+		font-size: 12px;
+	}
+}
+
+
+/*Campo teléfono*/
+.telefono{
+	margin-right: 20px;
+	margin-bottom: 3px;
+	font-family: 'Verdana';
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.txtTelefono{
+	width: 100%;
+	font-family: 'Verdana';
+	font-size: 16px;
+}
+
+
+/*Responsive telefono*/
+@media screen and (max-width: 800px) {
+	.telefono{
+		margin-bottom: 5px;
+		font-family: 'Verdana';
+		font-size: 12px;
+		font-weight: bold;
+		margin-top: 6px;
+	}
+	.txtTelefono{
+		width: 100%;
+		font-family: 'Verdana';
+		font-size: 12px;
+	}
+}
+
+
+
+
+/*Botón de Crear cuenta*/
+.botonera{
+	margin-top: 20px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 50px;
+	width: 20%;
+}
+
+.botonRegistro{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #0d6efd;
+	color: #EFEFEF;
+	height: 100%;
+	font-family: 'Verdana';
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+/*Responsive del boton crear cuenta*/
+@media screen and (max-width: 800px) {
+	/*Botón de Crear Cuenta*/
+	.botonera{
+		margin-top: 20px;
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		height: 45px;
+		width: 50%;
+	}
+
+	.botonRegistro{
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #0d6efd;
+		color: #EFEFEF;
+		height: 100%;
+		font-family: 'Verdana';
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		line-height: 15px;
+	}
+}
