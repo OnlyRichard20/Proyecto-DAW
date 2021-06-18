@@ -1,0 +1,78 @@
+.profesionales{
+        background-image: url(../imagenes/fondos/FondoInicio2.jpg);
+        height: 1200px;
+
+}
+
+.fluid2{
+        height: 300px;
+}
+
+.profesional{
+     height:100%;
+     width: 100%;
+}
+
+.filaProfesionales{
+        height: 300px;
+        width: 100%;
+        margin: 0px;
+        
+}
+
+.columnaProfesionales{
+        height: 100%;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid #EFEFEF;
+        margin-top: 30px;
+        margin-bottom: 20px;
+}
+
+
+.filaDentro{
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+}
+
+
+
+/*Responsive*/
+@media screen and (max-width: 1000px) {
+        .fluid2{
+                height: 350px;
+        }
+        
+	.profesionales{
+        background-image: url(../imagenes/fondos/FondoInicio2.jpg);
+        height: 100%;
+        padding: 0px;
+        
+        }
+        
+        .profesional{
+             height:100%;
+             width: 100%;
+             padding: 0px;
+        }
+        
+        .filaProfesionales{
+                height: 40%;
+                width: 100%;
+                margin: 0px;
+                
+        }
+        
+        .columnaProfesionales{
+                height: 100%;
+                padding-top: 30px;
+                padding-bottom: 10px;
+                width: auto;
+        }
+        
+        
+        
+        
+}
